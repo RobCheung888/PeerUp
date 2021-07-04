@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="Chrome" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<style>
+			/* Styling the Body element i.e. Color, Font, Alignment */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+			html, body {
+				font-family: 'Inter', sans-serif;
+				text-align: center;
+                background-color: #F3F5FC;
+                color: #315BC7;
+			}
+
+			/* Styling the Form (Color, Padding, Shadow) */
+			form {
+				background-color: #fff;
+				max-width: 650px;
+				margin: 0 auto 50px auto;
+				padding: 50px 50px;
+                border-radius: 30px;
+				/* box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5); */
+			}
+
+            form h2 {
+                margin: 0 0 20px 0;
+                text-align: left;
+                color: #315BC7;
+                font-weight: 600;
+            }
+
+			/* Styling form-control Class */
+			.form-control {
+				text-align: left;
+				margin-bottom: 25px;
+			}
+
+			/* Styling form-control Label */
+			.form-control label {
+				display: block;
+				margin-bottom: 10px;
+                font-weight: 500;
+                opacity: 0.8;
+                color: #000;
+			}
+
+			/* Styling form-control input,
+        select, textarea */
+			.form-control input,
+			.form-control select,
+			.form-control textarea {
+				border: none;
+                background-color: #F3F5FC;
+				border-radius: 15px;
+				padding: 20px 30px;
+				display: block;
+                width: 540px;
+			}
+
+			/* Styling form-control Radio
+        button and Checkbox */
+			.form-control input[type="radio"],
+			.form-control input[type="checkbox"] {
+				display: inline-block;
+				width: auto;
+			}
+
+			/* Styling Button */
+			button {
+				background-color: #315bc7;
+                border: none;
+				/* border: 1px solid #777; */
+				border-radius: 20px;
+				font-family: inherit;
+				font-size: 21px;
+				display: block;
+				width: 100%;
+				margin-top: 50px;
+				margin-bottom: 20px;
+				padding: 20px;
+                transition: all 0.3s;
+			}
+
+            button a {
+                color: #F3F5FC;
+                text-decoration: none;
+                
+            }
+
+			button:hover{
+				opacity: 0.9;
+			}
+
+            .section-logo {
+                width: 40vw;
+                background-color: #315BC7;
+                height: 100vh;
+            }
+
+            .section-logo h1 {
+                color: #F3F5FC;
+                font-size: 60px;
+                font-weight: 700;
+            }
+
+            .flex {
+                display: flex;
+            }
+
+            .logo {
+                flex-direction: column;
+                width: 260px;
+                align-items: center;
+                justify-content: center;
+                align-self: center;
+                margin: auto;
+                height: 100vh;
+            }
+
+            .section-form {
+                margin: auto;
+            }
+
+            .section-form h1 {
+                text-align: left;
+                font-size: 40px;
+                margin-bottom: 30px;
+                margin-top: 55px;
+            }
+
+		</style>
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="favicon.ico/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon.ico/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon.ico/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon.ico/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon.ico/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon.ico/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon.ico/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon.ico/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="favicon.ico/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon.ico/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico/favicon-16x16.png">
+        <link rel="manifest" href="favicon.ico/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="favicon.ico/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+	</head>
+
+	<body>
+        <div class="flex">
+            <div class="section-logo">
+                <div class="flex logo">
+                    <img src="images/logo-white.png" alt="Logo Image">
+                    <h1>Peer Up</h1>
+                </div>
+            </div>
+
+            <div class="section-form">
+                <h1>Let's Start!</h1>
+                <!-- Create Form -->
+                <form id="form">
+                    <h2>Sign Up</h2>
+                    <!-- Details -->
+                    <div class="form-control">
+                        <label for="name" id="label-name"> Name </label>
+
+                        <!-- Input Type Text -->
+                        <input type="text" id="name" placeholder="Enter your name" />
+                    </div>
+
+                    <div class="form-control">
+                        <label for="email" id="label-email"> Email Address </label>
+
+                        <!-- Input Type Email-->
+                        <input type="email" id="email" placeholder="Enter your email"/>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="reason" id="label-reason">
+                            Why do you want to be a part of PeerUp?
+                        </label>
+                        <!-- Input Type Email-->
+                        <textarea type="text" id="reason"></textarea>
+                    </div>
+
+                    <div class="form-control">
+                        <label for="role" id="label-role">
+                            Are you a volunteer or patient?
+                        </label>
+
+                        <!-- Dropdown options -->
+                        <select name="role" id="role">
+                            <option value=" "></option>
+                            <option value="patient">Patient</option>
+                            <option value="volunteer">Volunteer</option>
+                        </select>
+                    </div>
+
+                    <!-- Multi-line Text Input Control -->
+                    <button type="register" value="register"><a href="#">Register</a></button>
+                </form>
+            </div>
+        </div>
+	</body>
+
+
+</html>
