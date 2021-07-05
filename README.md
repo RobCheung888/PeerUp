@@ -16,16 +16,14 @@ Our first step was planning what we wanted to make. We made a brainstorming docu
 
 
 ## Challenges we ran into
-1.  We had difficulty creating a log-in page that would remember the user’s login information 
-2. Involving the Crisp.chat API into our website
-3. All of us being in different timezones making it difficult to communicate
+1. Involving the Crisp.chat API into our website
+2. All of us being in different timezones making it difficult to communicate
 
 ## Accomplishments that we're proud of
 1. Implementing an API into our website
 2. Incorporating Javascript into HTML and CSS
 3. Creating such a professional looking website in such a short period of time
-4. Creating a working login page
-5. We’ve all never met each other before this hackathon and we’re proud of the friendship we've made!
+4. We’ve all never met each other before this hackathon and we’re proud of the friendship we've made!
 
 
 ## What we learned
