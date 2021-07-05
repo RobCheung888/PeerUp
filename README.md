@@ -31,5 +31,11 @@ We were not skillful enough to make a login system which requires knowledge in m
 1. Sending daily mental tips to the user through email
 2. Make a mobile friendly website
 
-# Citation:
-Nirmita Panchal, Rabah Kamal, and Feb 2021. “The Implications of COVID-19 for Mental Health and Substance Use.” KFF, 14 Apr. 2021, www.kff.org/coronavirus-covid-19/issue-brief/the-implications-of-covid-19-for-mental-health-and-substance-use/. 
+# Citation&Credits:
+1. Nirmita Panchal, Rabah Kamal, and Feb 2021. “The Implications of COVID-19 for Mental Health and Substance Use.” KFF, 14 Apr. 2021, www.kff.org/coronavirus-covid-19/issue-brief/the-implications-of-covid-19-for-mental-health-and-substance-use/. 
+
+2. COVID-19 and Mental Health by Psych Hub
+https://www.youtube.com/watch?v=CVvGvoMRUhk
+
+3. 6 Mental Health Tips during Covid 19 for 2021 (and beyond) by Doctor Mike Hansen
+https://www.youtube.com/watch?v=sP-JR0MAQ5c
