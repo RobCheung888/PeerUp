@@ -217,9 +217,21 @@
                         </select>
                     </div>
 
+                    <script type = "text/javacript">
+                    function decide()
+                    {
+                        var label = document.getElementById("role").value;
+                        if (label == "patient") {
+                            document.write("onclick="location.href='form-username.html'"");
+                        } else {
+                            document.write("onclick="location.href='form-volunteer.html'"");
+                        }
+                    }
+                    </script>
+
                     <!-- Multi-line Text Input Control -->
                     <button onclick="location.href='form-volunteer.html'" type="register" value="register"><a href="#">Next</a></button>
-                    <a class="acc" href="#">Already have an account?</a>
+                    <a class="acc" href="login.html">Already have an account?</a>
                 </form>
             </div>
         </div>
