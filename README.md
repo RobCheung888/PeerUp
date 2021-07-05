@@ -30,3 +30,6 @@ We were not skillful enough to make a login system which requires knowledge in m
 ## What's next for Peer Up 
 1. Sending daily mental tips to the user through email
 2. Make a mobile friendly website
+
+# Citation:
+Nirmita Panchal, Rabah Kamal, and Feb 2021. “The Implications of COVID-19 for Mental Health and Substance Use.” KFF, 14 Apr. 2021, www.kff.org/coronavirus-covid-19/issue-brief/the-implications-of-covid-19-for-mental-health-and-substance-use/. 
