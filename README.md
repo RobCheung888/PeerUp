@@ -7,7 +7,7 @@ So, we have decided to make a safe platform to support people with mental illnes
 
 
 ## What it does
-PeerUp allows people to volunteer to give support to the others with mental illnesses or having a bad mood during the desperate times of covid by chatting. Since we want our platform to be safe, we have strict rules on volunteer registration. In order to prevent people with bad intentions from using the website, volunteers have to be interviewed before chatting with people who need help. 
+PeerUp allows people to volunteer to give support to others with mental illnesses or having a bad mood during the desperate times of covid by chatting. Since we want our platform to be safe, we have strict rules on volunteer registration. In order to prevent people with bad intentions from using the website, volunteers have to be interviewed before chatting with people who need help. 
 
 ## How we built it
 For the website, we used figma to build a blueprint of the website in the first place. After having an idea on the content of the website, we started to make the website in VS Code with HTML and CSS. And we have implemented an api from crisp.chat for the online chatting system, so that the volunteer can chat with people who need help. At this moment, we will interview and select volunteers by ourself.
